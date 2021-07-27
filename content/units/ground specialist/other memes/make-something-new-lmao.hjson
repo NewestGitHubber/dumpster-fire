@@ -1,0 +1,34 @@
+health: 6969
+hitsize: 8
+speed: 1
+drag: 0.2
+flying: true
+type: mech
+mechFrontSway: 0.55
+weapons: [
+ {
+ name: large-laser-mount
+ reload: 3
+ ejectEffect: casing1
+ mirror: false
+ x: 8
+ top: false
+ bullet: {
+  type: BasicBulletType
+  speed: 2
+  width: 7 
+  height: 9
+  lifetime: 60
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  sapStrength: 0.5
+  damage: 9
+  frontColor: 7457ce
+  backColor: 995d9a
+  
+  status: sapped
+  statusDuration: 60
+  }
+ }
+ ]
+ 
