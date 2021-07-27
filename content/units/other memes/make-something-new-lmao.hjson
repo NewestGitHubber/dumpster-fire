@@ -11,8 +11,9 @@ weapons: [
  reload: 3
  ejectEffect: casing1
  mirror: false
- randY: 8
- x: 18
+ xRand: 8
+ Y: 8
+ rotate: true
  top: false
  bullet: {
   type: BasicBulletType
