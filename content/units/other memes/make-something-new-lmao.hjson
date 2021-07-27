@@ -1,9 +1,9 @@
 health: 6969
 hitsize: 8
 speed: 1
+range: 69
 drag: 0.2
 flying: true
-type: mech
 mechFrontSway: 0.55
 weapons: [
  {
@@ -11,7 +11,8 @@ weapons: [
  reload: 3
  ejectEffect: casing1
  mirror: false
- x: 8
+ randY: 8
+ x: 18
  top: false
  bullet: {
   type: BasicBulletType
