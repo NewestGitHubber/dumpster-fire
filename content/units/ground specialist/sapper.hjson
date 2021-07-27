@@ -12,10 +12,15 @@ weapons: [
  top: false
  bullet: {
   type: BasicBulletType
+  width: 7 
+  height: 9
+  lifetime: 60
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
   sapStrength: 0.5
   damage: 9
-  frontColor: sapBullet
-  backColor: sapBulletBack
+  frontColor: 7457ce
+  backColor: 995d9a
   
   status: sapped
   statusDuration: 60
