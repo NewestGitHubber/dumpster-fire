@@ -25,7 +25,7 @@ weapons: [
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   sapStrength: 0.5
-  damage: 9
+  damage: 77
   frontColor: 7457ce
   backColor: 995d9a
   
