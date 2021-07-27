@@ -7,7 +7,7 @@ flying: true
 mechFrontSway: 0.55
 weapons: [
  {
- name: large-laser-mount
+ name: sei-launcher
  reload: 3
  ejectEffect: casing1
  mirror: false
