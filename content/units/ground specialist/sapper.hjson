@@ -1,0 +1,23 @@
+health: 90
+speed: 0.5
+type: mech
+weapons: [
+ {
+ name: purple-weapon
+ x: 4
+ y: 2
+ top: false
+ bullet: {
+  type: BasicBulletType
+  sapStrength: 0.5
+  damage: 9
+  frontColor: sapBullet
+  backColor: sapBulletBack
+  
+  status: sapped
+  statusDuration: 60 * 10
+  }
+ }
+ ]
+  
+ 
