@@ -15,7 +15,7 @@ weapons: [
   backColor: sapBulletBack
   
   status: sapped
-  statusDuration: 60 * 10
+  statusDuration: 60
   }
  }
  ]
