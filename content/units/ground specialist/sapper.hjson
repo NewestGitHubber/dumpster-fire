@@ -12,6 +12,7 @@ weapons: [
  top: false
  bullet: {
   type: BasicBulletType
+  speed: 2
   width: 7 
   height: 9
   lifetime: 60
