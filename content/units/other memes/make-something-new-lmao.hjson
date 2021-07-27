@@ -12,7 +12,8 @@ weapons: [
  ejectEffect: casing1
  mirror: false
  xRand: 14
- Y: 14
+ y: 13
+ x: 0
  rotate: true
  top: false
  bullet: {
