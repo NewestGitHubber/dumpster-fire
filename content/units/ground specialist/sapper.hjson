@@ -3,7 +3,7 @@ speed: 0.5
 type: mech
 weapons: [
  {
- name: purple-weapon
+ name: large-purple-weapon
  x: 4
  y: 2
  top: false
