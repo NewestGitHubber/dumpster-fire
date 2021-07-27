@@ -21,7 +21,7 @@ weapons: [
   speed: 2
   width: 7 
   height: 9
-  lifetime: 60
+  lifetime: 420
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   sapStrength: 0.5
