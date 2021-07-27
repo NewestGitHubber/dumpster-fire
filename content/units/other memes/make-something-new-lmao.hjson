@@ -11,8 +11,8 @@ weapons: [
  reload: 3
  ejectEffect: casing1
  mirror: false
- xRand: 14
- y: 13
+ xRand: 18
+ y: 10
  x: 0
  rotate: true
  top: false
