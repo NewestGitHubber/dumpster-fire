@@ -1,9 +1,12 @@
-health: 90
+health: 150
+hitsize: 8
 speed: 0.5
 type: mech
 weapons: [
  {
  name: large-purple-weapon
+ reload: 13
+ ejectEffect: casing1
  x: 4
  y: 2
  top: false
