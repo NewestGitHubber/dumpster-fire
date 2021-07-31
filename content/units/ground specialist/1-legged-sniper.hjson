@@ -17,7 +17,6 @@ landShake: 1.1
 hovering: true
 visualElevation: 1.25
 allowLegStep: true
-groundLayer: legs
 
 weapons: [
  {
