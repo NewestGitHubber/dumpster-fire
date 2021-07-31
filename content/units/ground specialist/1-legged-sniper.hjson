@@ -1,4 +1,4 @@
-health: 12000
+health: 9000
 armor: 8
 hitsize: 14
 speed: 0.25
@@ -7,7 +7,7 @@ canDrown: false
 rotateSpeed: 0
 
 legCount: 1
-legLength: 16
+legLength: 24
 legMoveSpace: 1
 legBaseOffset: 0
 legPairOffset: 0
@@ -21,10 +21,11 @@ allowLegStep: true
 weapons: [
  {
  name: sniper-cannon
- reload: 400
+ reload: 300
  ejectEffect: casing1
  mirror: false
  rotate: true
+ shootSound: railgun
  cooldownTime: 90
  x: 0
  y: 0
@@ -35,13 +36,13 @@ weapons: [
  shots: 1
  bullet: {
   type: RailBulletType
-  length: 2000
+  length: 800
   pierceEffect: railHit
   updateEffect: railTrail
   shootEffect: blastExplosion
   hitEffect: massiveExplosion
   smokeEffect: shootBig2
-  damage: 2500
+  damage: 700
   frontColor: 7457ce
   backColor: 995d9a
   
