@@ -31,7 +31,8 @@ weapons: [
  y: 0
  rotateSpeed: 1.2
  shootY: 23
- shake: 10
+ shake: 8
+ recoil: 3
  top: true
  shots: 1
  bullet: {
