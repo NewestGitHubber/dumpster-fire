@@ -2,7 +2,7 @@ health: 12000
 armor: 8
 hitsize: 14
 speed: 0.25
-type: mech
+type: legUnit
 canDrown: false
 
 legCount: 1
