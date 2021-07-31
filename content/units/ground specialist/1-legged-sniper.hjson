@@ -4,6 +4,7 @@ hitsize: 14
 speed: 0.25
 type: legUnit
 canDrown: false
+rotateSpeed: 0
 
 legCount: 1
 legLength: 16
