@@ -1,0 +1,53 @@
+health: 12000
+armor: 8
+hitsize: 14
+speed: 0.25
+type: mech
+canDrown: false
+
+legCount: 1
+legLength: 16
+legMoveSpace: 1
+legBaseOffset: 0
+legPairOffset: 0
+legSpeed: 0.14
+legLengthScl: 0.93
+landShake: 1.1
+hovering: true
+visualElevation: 1.25
+allowLegStep: true
+groundLayer: legUnit
+
+weapons: [
+ {
+ name: sniper-cannon
+ reload: 400
+ ejectEffect: casing1
+ mirror: false
+ rotate: true
+ cooldownTime: 90
+ x: 0
+ y: 0
+ rotateSpeed: 1.2
+ shootY: 23
+ shake: 10
+ top: true
+ shots: 1
+ bullet: {
+  type: RailBulletType
+  length: 2000
+  pierceEffect: railHit
+  updateEffect: railTrail
+  shootEffect: blastExplosion
+  hitEffect: massiveExplosion
+  smokeEffect: shootBig2
+  damage: 2500
+  frontColor: 7457ce
+  backColor: 995d9a
+  
+  status: blasted
+  statusDuration: 60
+  }
+ }
+ ]
+ 
